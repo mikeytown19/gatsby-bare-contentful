@@ -1,26 +1,2 @@
 stackbitVersion: ~0.3.0
-ssgName: unibit
-buildCommand: unibit build
-publishDir: output
-staticDir: static
-uploadDir: images
-dataDir: data
-pagesDir: content
-metadata:
-  title: Planty
-  description: An e-commerce theme powered by Snipcart
-  author: Snipcart
-  authorURL: 'https://snipcart.com'
-  palettes:
-    default:
-      images:
-        small: images/demo-256x192.png
-        large: images/demo-1024x768.png
-  lessons:
-    type: page
-    label: Home
-    layout: home
-    hideContent: true
-    file: index.md
-    singleInstance: true
-    extends: advancedPageFields
+

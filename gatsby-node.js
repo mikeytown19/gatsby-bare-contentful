@@ -21,10 +21,7 @@ exports.createPages = async ({graphql, actions}) => {
       }
 
       const projects = result.data.allContentfulLesson.nodes || [];
-      console.log(projects)
       projects.forEach((edge, index) => {
-
-        console.log(edge.slug)
         const path = `/${edge.slug}`
         createPage({
           path,
